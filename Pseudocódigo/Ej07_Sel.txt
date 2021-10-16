@@ -1,0 +1,44 @@
+﻿Autor: Gustavo Barrajón
+7. Ingresar 4 números enteros e imprimirlos de Menor a Mayor.
+
+Algoritmo Menor_a_Mayor
+
+Variables
+Enteras num1, num2, num3, num4, auxiliar
+
+Inicio
+           Leer(num1, num2, num3, num4)
+           
+           Si num1 > num2
+                auxiliar <- num1
+                num1 <- num2
+                num2 <- auxiliar
+    
+            Si num1 > num3
+                auxiliar <- num1
+                num1 <- num3
+                num3 <- auxiliar
+    
+            Si num1 > num4
+                auxiliar <- num1
+                num1 <- num4
+                num4 <- auxiliar
+  
+            Si num2 > num3
+                auxiliar <- num2
+                num2 <- num3
+                num3 <- auxiliar
+    
+            Si num2 > num4
+                auxiliar <- num2
+                num2 <- num4
+                num4 <- auxiliar
+    
+            Si num3 > num4
+                auxiliar <- num3
+                num3 <- num4 
+                num4 <- auxiliar
+            
+           Escribe (Numeros ordenados de menor a mayor) 
+
+Fin

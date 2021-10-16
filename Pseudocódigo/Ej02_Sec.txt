@@ -1,0 +1,16 @@
+﻿Autor: Gustavo Barrajón
+2. Dadas la base y altura de un rectángulo imprimir su superficie.
+
+Algoritmo Superficie_Rectangulo
+Variables
+Enteras base, altura, superficie
+
+
+Inicio
+            Leer(base, altura)
+            Si a>b 
+            superficie <- base*altura
+            Escribe (superficie) 
+                        
+
+Fin

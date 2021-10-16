@@ -1,0 +1,17 @@
+﻿Autor: Gustavo Barrajón
+6. Ingresar dos valores numéricos que corresponden a un horario expresados horas y
+ minutos, convertirlo a minutos. Mostrar el resultado.
+
+Algoritmo Minutos
+
+Variables
+Enteras horas, minutos, totalMinutos
+
+Inicio
+           Leer(horas, minutos)
+
+           totalMinutos <- (horas * 60) + minutos
+           
+           Escribe (totalMinutos) 
+
+Fin

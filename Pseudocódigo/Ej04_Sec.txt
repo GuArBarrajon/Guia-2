@@ -1,0 +1,17 @@
+﻿Autor: Gustavo Barrajón
+4. Ingresar tres números, informar su suma y producto.
+
+Algoritmo Suma_ y_Producto
+
+Variables
+Enteras num1, num2, num3, suma, producto
+
+
+Inicio
+            Leer(num1, num2, num3)
+            suma <- num1 + num2 + num3
+            producto <- num1 * num2 * num3          
+            Escribe (suma)  
+            Escribe (producto) 
+
+Fin

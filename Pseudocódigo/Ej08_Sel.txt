@@ -1,0 +1,24 @@
+﻿Autor: Gustavo Barrajón
+8. Lea 3 Números por teclado y descubra si Uno de ellos, es la suma de los otros Dos. Debe
+informarlo por pantalla indicando qué Numero es la suma de los otros dos.
+
+Algoritmo Mumeros_y_Sumas
+Variables
+Enteras num1, num2, num3, suma1, suma2, suma3
+
+Inicio
+            Leer(num1, num2, num3)
+            suma1 <- num2 + num3
+            suma2 <- num1 + num3
+            suma3 <- num1 + num2
+            Si num1 es igual a suma1
+            Escribe(El primer numero es igual a la suma de los otros dos)
+            Sino
+                  Si num2 es igual a suma2   
+                  Escribe(El segundo numero es igual a la suma de los otros dos)  
+                  Sino
+                        Si  num3 es igual a suma3   
+                        Escribe(El tercer numero es igual a la suma de los otros dos)  
+                        Sino
+                              Escribe(Ninguno de los numeros es igual a la suma de los otros dos)      
+Fin

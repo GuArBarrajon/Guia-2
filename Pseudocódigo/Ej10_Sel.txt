@@ -1,0 +1,46 @@
+﻿Autor: Gustavo Barrajón
+10. Ingresar un Dígito por teclado, del 0 al 10, e imprimirlo en Letras: Si Ingreso 1, imprimir
+“Uno”, si ingreso 2, imprimir “Dos”, y así sucesivamente.
+
+Algoritmo Numero_en_Letras
+
+Variables
+Enteras numero
+
+Inicio
+            Leer(numero)
+
+            Si numero es igual a 0
+            Escribe (cero)
+
+            Si numero es igual a 1
+            Escribe (uno)
+
+            Si numero es igual a 2
+            Escribe (dos)
+
+            Si numero es igual a 3
+            Escribe (tres)
+
+            Si numero es igual a 4
+            Escribe (cuatro)
+
+            Si numero es igual a 5
+            Escribe (cinco)
+
+            Si numero es igual a 6
+            Escribe (seis)
+
+            Si numero es igual a 7
+            Escribe (siete)
+           
+            Si numero es igual a 8
+            Escribe (ocho)
+
+            Si numero es igual a 9
+            Escribe (nueve)
+
+            Si numero es igual a 10
+            Escribe (diez)
+            
+Fin

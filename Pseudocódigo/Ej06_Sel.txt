@@ -1,0 +1,25 @@
+﻿Autor: Gustavo Barrajón
+6. Ingresar 4 números enteros e imprima el Menor de todos.
+
+Algoritmo Menor
+
+Variables
+Enteras num1, num2, num3, num4, menor
+
+Inicio
+           Leer(num1, num2, num3, num4)
+
+           menor <- num1 
+           
+           Si menor > num2
+              menor <- num2
+        
+           Si menor > num3
+              menor <- num3
+
+           Si menor > num4
+              menor <- num4
+            
+           Escribe (menor) 
+
+Fin

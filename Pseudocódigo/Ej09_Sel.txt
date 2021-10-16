@@ -1,0 +1,26 @@
+﻿Autor: Gustavo Barrajón
+9. Construir un programa que permita ingresar un Nro por teclado y nos diga: Si es
+positivo, igual q cero o negativo y si es par o impar.
+
+Algoritmo Positivo_Negativo_Par_o_Impar
+
+Variables
+Enteras numero
+
+Inicio
+            Leer(numero)
+           
+            Si numero es igual a 0
+            Escribe (El numero es igual a cero)
+            Sino
+                  Si numero > 0   
+                  Escribe (El numero es positivo)  
+                  Sino    
+                  Escribe (El numero es negativo)  
+
+            Si numero modulo de 2 es igual a 0
+            Escribe (El numero es par)
+            Sino
+            Escribe (El numero es impar)      
+            
+Fin

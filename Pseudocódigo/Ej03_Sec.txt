@@ -1,0 +1,19 @@
+﻿Autor: Gustavo Barrajón
+3. Dado el radio de una circunferencia informar su perímetro y superficie.
+
+Algoritmo Superficie_Perimetro_Circunferencia
+
+Variables
+Flotantes radio, perimetro, superficie, PI
+
+
+Inicio
+            PI <- 3.14
+            Leer(radio)
+            perimetro <- 2*PI*radio
+            superficie <- PI*radio*radio
+            
+            Escribe (perimetro) 
+            Escribe (superficie) 
+
+Fin

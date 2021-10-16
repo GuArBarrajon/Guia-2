@@ -1,0 +1,8 @@
+﻿Autor: Gustavo Barrajón
+1. Imprimir un cartel que diga “Hello world”.
+
+Algoritmo Hello_World
+
+Inicio
+           Escribe (Hello World)                 
+Fin

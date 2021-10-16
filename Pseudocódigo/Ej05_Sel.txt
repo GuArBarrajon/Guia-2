@@ -1,0 +1,25 @@
+﻿Autor: Gustavo Barrajón
+5.  Ingresar 4 números enteros e imprima el Mayor de todos.
+
+Algoritmo Mayor
+
+Variables
+Enteras num1, num2, num3, num4, mayor
+
+Inicio
+           Leer(num1, num2, num3, num4)
+
+           mayor <- num1 
+           
+           Si mayor < num2
+              mayor <- num2
+        
+           Si mayor < num3
+              mayor <- num3
+
+           Si mayor < num4
+              mayor <- num4
+            
+           Escribe (mayor) 
+
+Fin

@@ -1,0 +1,25 @@
+﻿Autor: Gustavo Barrajón
+2. Ingresar la base y altura de un triangulo y el diámetro de una circunferencia. informar
+cual es el de mayor superficie.
+
+Algoritmo Superficie_Mayor
+
+Constante PI
+Variables
+Flotantes base, altura, diametro, supTriangulo, supCircun
+
+
+Inicio
+            Leer(base, altura, diametro)
+            supTriangulo <- (base*altura)/2
+            supCircun <- PI*(diametro/2)*(diametro/2)
+            
+            Si supTriangulo > supCircun 
+            Escribe (El triangulo tiene mayor superficie) 
+            Sino 
+                Si supCircun > supTriangulo
+                Escribe (El circulo tiene mayor superficie) 
+                Sino
+                    Escribe (Ambos tienen la misma superficie) 
+
+Fin

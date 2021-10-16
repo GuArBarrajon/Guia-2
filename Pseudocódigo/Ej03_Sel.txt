@@ -1,0 +1,17 @@
+﻿Autor: Gustavo Barrajón
+3. Ingresar un número y determinar si pertenece al intervalo -2 < x < 4.
+
+Algoritmo Intervalo
+
+Variables
+Flotantes numero
+
+
+Inicio
+            Leer(numero)
+            Si numero > -2 y numero < 4            
+            Escribe (El numero se encuentra entre -2 y 4) 
+            Sino
+                Escribe (El numero no se encuentra entre -2 y 4) 
+
+Fin

@@ -1,0 +1,17 @@
+﻿Autor: Gustavo Barrajón
+4. Ingresar un número e informar si es múltiplo de 7.
+
+Algoritmo Multiplo_7
+
+Variables
+Enteras numero
+
+
+Inicio
+            Leer(numero)
+            Si numero % (modulo de) 7 es igual a 0          
+            Escribe (El numero es multiplo de 7)
+            Sino  
+            Escribe (El numero no es multiplo de 7) 
+
+Fin

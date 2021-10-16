@@ -1,0 +1,18 @@
+﻿Autor: Gustavo Barrajón
+1. Ingresar 2 números, si a < b informar a*b , en caso contrario a/b..
+
+Algoritmo Producto_o_Division
+Variables
+Enteras a, b , producto
+Flotantes division
+
+Inicio
+            Leer(a, b)
+            Si a>b 
+            producto <- a*b 
+            Escribe (producto) 
+            Sino
+                division <- a/b 
+                Escribe(division)                
+
+Fin

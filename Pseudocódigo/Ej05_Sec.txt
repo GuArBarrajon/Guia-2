@@ -1,0 +1,17 @@
+﻿Autor: Gustavo Barrajón
+5. Ingresar tres números, informar su promedio.
+
+Algoritmo Promedio
+
+Variables
+Enteras num1, num2, num3
+Flotantes promedio
+
+Inicio
+            Leer(num1, num2, num3)
+
+            promedio <- (num1 + num2 + num3) / 3
+            
+            Escribe (promedio) 
+
+Fin
