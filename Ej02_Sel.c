@@ -7,7 +7,7 @@ cual es el de mayor superficie.
 */
 
 #include<stdio.h>
-#define Pi 3.14159265359
+#define PI 3.14159265359
 
 int main()
 {
@@ -19,7 +19,7 @@ int main()
      printf("Ingrese el diametro de la circunferencia: ");
     scanf("%f", &diametro);
     supTriangulo=(base*altura)/2;
-    supCircun=Pi*(diametro/2)*(diametro/2);
+    supCircun=PI*(diametro/2)*(diametro/2);
     if (supTriangulo>supCircun)
     {
         printf("El triangulo tiene mayor superficie\n");
