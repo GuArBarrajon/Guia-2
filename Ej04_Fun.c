@@ -8,55 +8,54 @@ Modificó:
 
 #include<stdio.h>
 
-int menu (int num1, int num2, char operacion);
+float menu (float num1, float num2, char operacion);
 
 void main (void)
 {
-    int a, b;
+    float a, b, result;
     char c;
     printf("Ingrese el primer valor: ");
-    scanf("%d", &a);
+    scanf(" %f", &a);
     printf("Ingrese el segundo valor: ");
-    scanf("%d", &b);
+    scanf(" %f", &b);
     printf("Ingrese la operacion a realizar (+, -, *, /): ");
     scanf(" %c", &c);
-    menu (a, b, c);
+    result=menu (a, b, c);
+    printf(" %f %c %f = %f\n", a, c, b, result);
+
 }
 
-int menu (int num1, int num2, char operacion)
+float menu (float num1, float num2, char operacion)
 {
+    float resultado;
     if (operacion=='+')
     {
-        int suma=num1+num2;
-        printf("La suma de los numeros ingresados es: %d\n", suma);
+        resultado=num1+num2;
     }
     else
     {
         if (operacion=='-')
         {
-            int resta=num1-num2;
-            printf("La diferencia de los numeros ingresados es: %d\n", resta);
+            resultado=num1-num2;
         }
         else
         {
             if (operacion=='*')
             {
-                int multiplicacion=num1*num2;
-                printf("El producto de los numeros ingresados es: %d\n", multiplicacion);
+                resultado=num1*num2;
             }
             else
             {
                 if (operacion=='/')
                 {
-                    int division=num1/num2;
-                    printf("La division de los numeros ingresados es: %d\n", division);
+                    resultado=num1/num2;
                 }
                 else
                 {
-                    printf("La operacion ingresada no es valida\n");
+                    printf("La operacion ingresada NO es valida\n");
                 }
             }
         }
     }
-    return 0;
+    return resultado;
 }
