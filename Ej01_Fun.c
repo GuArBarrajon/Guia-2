@@ -8,7 +8,7 @@ Modificó:
 
 #include<stdio.h>
 
-int triangulo (int lado1, int lado2, int lado3);
+void triangulo (int lado1, int lado2, int lado3);
 
 void main (void)
 {
@@ -22,7 +22,7 @@ void main (void)
     triangulo (a, b, c);
 }
 
-int triangulo (int lado1, int lado2, int lado3)
+void triangulo (int lado1, int lado2, int lado3)
 {
     if(lado1<lado2+lado3 && lado2<lado1+lado3 && lado3<lado1+lado2) 
     {
@@ -32,6 +32,5 @@ int triangulo (int lado1, int lado2, int lado3)
     {
         printf("NO es un triangulo\n");
     }
-    
-    return 0;
+
 }
