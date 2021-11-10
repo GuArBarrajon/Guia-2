@@ -25,12 +25,15 @@ int carga(int v[])
     for (int i=0; i<MAX; i++)
         v[i]=-1;
 
-    for(int i=0; i<MAX; i++)
-    {
+    int i=0;
+    printf("Ingrese un numero POSITIVO a multiplicar o uno NEGATIVO para finalizar: ");
+    scanf("%d", &v[i]);
+    while(v[i]>0)   
+    {               
+        i++;
         printf("Ingrese un numero POSITIVO a multiplicar o uno NEGATIVO para finalizar: ");
         scanf("%d", &v[i]);
-        if(v[i]<0)  
-            break;
+        
     }
 }
 
@@ -53,4 +56,3 @@ int producto(int v[])
     }
     return prod;
 }
-
